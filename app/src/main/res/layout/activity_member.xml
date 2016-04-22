@@ -89,7 +89,8 @@
         android:layout_alignLeft="@+id/textView5"
         android:layout_alignStart="@+id/textView5"
         android:layout_above="@+id/button"
-        android:stackFromBottom="false" />
+        android:stackFromBottom="false"
+        android:background="#aeaeae" />
 
     <Button
         android:layout_width="wrap_content"
