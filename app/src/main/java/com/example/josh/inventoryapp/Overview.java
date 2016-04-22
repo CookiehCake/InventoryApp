@@ -30,8 +30,8 @@ public class Overview extends AppCompatActivity {
         Inventory_Management = (ImageButton) findViewById(R.id.imageView5);
         Inventory_Management.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View arg0) { //need to set to change to inventory management pane
-                startActivity(new Intent(Overview.this, accountSettings.class));
+            public void onClick(View arg0) {
+                startActivity(new Intent(Overview.this, inventoryManagement.class));
             }
         });
 
