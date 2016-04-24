@@ -25,7 +25,9 @@
         <activity android:name=".inventoryManagement" />
         <activity android:name=".stockItem" />
         <activity android:name=".destroyItem" />
-        <activity android:name=".itemManager"></activity>
+        <activity android:name=".itemManager" />
+        <activity android:name=".createItem" />
+        <activity android:name=".inventoryList"></activity>
     </application>
 
 </manifest>

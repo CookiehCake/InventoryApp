@@ -40,8 +40,8 @@ public class Overview extends AppCompatActivity {
         Item_Management = (ImageButton) findViewById(R.id.imageView6);
         Item_Management.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View arg0) { //need to set to change to item management pane
-                startActivity(new Intent(Overview.this, accountSettings.class));
+            public void onClick(View arg0) {
+                startActivity(new Intent(Overview.this, itemManager.class));
             }
         });
 
@@ -51,7 +51,7 @@ public class Overview extends AppCompatActivity {
         Member_Management.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) { //need to set to change to member management pane
-                startActivity(new Intent(Overview.this, accountSettings.class));
+                startActivity(new Intent(Overview.this, Member.class));
             }
         });
 
