@@ -22,7 +22,10 @@
         <activity android:name=".Member" />
         <activity android:name=".changeEmail" />
         <activity android:name=".changePassword" />
-        <activity android:name=".inventoryManagement"></activity>
+        <activity android:name=".inventoryManagement" />
+        <activity android:name=".stockItem" />
+        <activity android:name=".destroyItem" />
+        <activity android:name=".itemManager"></activity>
     </application>
 
 </manifest>
